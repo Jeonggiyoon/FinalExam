@@ -35,7 +35,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:id="@+id/Layout1"
+        android:id="@+id/Linear1"
         android:layout_height="match_parent">
         <TextView
             android:text="예약시작"
@@ -114,6 +114,7 @@
 
             <RadioGroup
                 android:layout_width="174dp"
+                android:id="@+id/radioGroup1"
                 android:layout_height="match_parent" >
 
                 <RadioButton
@@ -156,7 +157,7 @@
                 android:text="예약완료"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button"
+                android:id="@+id/button1"
                 android:layout_weight="1" />
 
             <Button
@@ -168,21 +169,18 @@
         </LinearLayout>
 
         <TextView
-            android:text="총명수:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView4"
             android:layout_weight="1" />
 
         <TextView
-            android:text="할인금액:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
             android:layout_weight="1" />
 
         <TextView
-            android:text="결제금액"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView6"
