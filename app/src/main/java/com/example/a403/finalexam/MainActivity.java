@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                 t4.setText("총명수: " +  sum);
 
                 if (r1.isChecked()) {
-                    double dis = (ad * 15000) + (vo * 12000) +(ba * 6000)* 00.5;
+                    double dis = ((ad * 15000) + (vo * 12000) +(ba * 6000)* 0.05);
                     t6.setText("결제금액:" + dis);
 
                     double total;
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if (r2.isChecked())
                 {
-                    double dis = (ad * 15000) + (vo * 12000) +(ba * 6000)* 0.01;
+                    double dis = ((ad * 15000) + (vo * 12000) +(ba * 6000)* 0.1);
                     t6.setText("결제금액:" + dis);
 
                     double total;
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if (r3.isChecked())
                 {
-                    double dis = (ad * 15000) + (vo * 12000) +(ba * 6000)* 0.02;
+                    double dis = ((ad * 15000) + (vo * 12000) +(ba * 6000)* 0.2);
                     t6.setText("결제금액:" + dis);
 
                     double total;
